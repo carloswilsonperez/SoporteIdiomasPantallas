@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/marcianito_redi"
+    tools:context="apps.cursos.com.soporteidiomaspantallas.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textLabel"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margen_top" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textButton"
+        android:id="@+id/button"
+        android:textSize="@dimen/botonTextSize"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:foregroundTint="@color/colorText"
+        android:background="@drawable/borde_boton"
+        android:paddingLeft="@dimen/boton_Padding"
+        android:paddingRight="@dimen/boton_Padding" />
+</RelativeLayout>
